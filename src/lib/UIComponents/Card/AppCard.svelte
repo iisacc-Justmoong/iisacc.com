@@ -1,6 +1,6 @@
 <script>
 
-	const DEFAULT_GRADIENT = 'linear-gradient(135deg, #1E3A5F, #2E8BC0)';
+	const DEFAULT_GRADIENT = 'linear-gradient(135deg, #001CED, #48FFA0)';
 
 	export let background = "";
 
@@ -14,7 +14,6 @@
 
 <article
   class="card"
-  role="group"
   aria-label="Application Card"
 >
   <header class="top">
@@ -57,7 +56,7 @@
   .icon {
     width: 64px;
     height: 64px;
-    border-radius: 0%;
+    border-radius: 0px;
   }
   .texts {
     display: flex;

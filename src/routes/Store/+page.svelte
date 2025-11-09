@@ -3,7 +3,7 @@
 	import Footer from '$lib/Layouts/Footer.svelte';
 	import AppCard from '$lib/UIComponents/Card/AppCard.svelte';
 
-	let TimeScopesBackground = 'linear-gradient(180deg, #000000 0%, #000000 100%)';
+	let TimeScopesBackground = 'linear-gradient(180deg, #48FFA0 0%, #001CED 100%)';
 	let VincentBackground = 'linear-gradient(180deg, #000000 0%, #000000 100%)';
 </script>
 
@@ -32,9 +32,7 @@
 <Footer />
 
 <style>
-		body {
-				width: 800;
-		}
+
 	img {
 			border-radius: 16px;
 	}
