@@ -14,8 +14,8 @@
 ### Frontend :
 
 - [x] Svelte
-- [ ] mdsvex - For static markdown posting
-- [ ] adapter-static - For static website build
+- [x] mdsvex - For static markdown posting
+- [x] adapter-static - For static website build
 
 
 ### Server / Systems
