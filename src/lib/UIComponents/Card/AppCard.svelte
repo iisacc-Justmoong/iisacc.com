@@ -1,15 +1,5 @@
 <script>
 
-	const DEFAULT_GRADIENT = 'linear-gradient(135deg, #001CED, #48FFA0)';
-
-	export let background = "";
-
-  export let backgroundVar = "";
-
-	$: resolvedBackground = backgroundVar
-		? `var(${backgroundVar}, ${DEFAULT_GRADIENT})`
-		: (background && background.trim().length > 0 ? background : DEFAULT_GRADIENT);
-
 </script>
 
 <article
@@ -24,14 +14,15 @@
       <h1 class="title">
         <slot name="title">AppName</slot>
       </h1>
-      <div class="price">
-        <slot name="price">Price</slot>
-      </div>
+      <section class="desc">
+        <slot name="description">Description</slot>
+      </section>
+    </div>
+    <div class="price">
+      <slot name="price">Price</slot>
     </div>
   </header>
-  <section class="desc">
-    <slot name="description">Description</slot>
-  </section>
+
 </article>
 
 <style>
@@ -39,12 +30,10 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     gap: 16px;
-    min-width: 320px;
     width: 100%;
-    height: 600px;
-    background-color: var(--color-background-secondary);
-    background: var(--app-card-bg, linear-gradient(135deg, #1E3A5F, #2E8BC0));
     padding: 32px;
+    align-items: center;
+    background-color: var(--color-card-bg);
     border-radius: 32px;
   }
   .top {
@@ -61,20 +50,24 @@
   .texts {
     display: flex;
     flex-direction: column;
-    gap: 100%;
+    justify-content: space-between;
+    height: 100%;
   }
   .title {
     margin: 0;
+    text-align: top;
   }
   .price {
     justify-self: end;
     white-space: nowrap;
     text-align: right;
-    color: var(--color-accent-blue);
+    align-items: center;
+    color: var(--text-primary);
+    background-color: var(--color-accent-blue);
+    padding: 12px 32px;
+    border-radius: 32px;
   }
   .desc {
-    min-height: 96px;
-    align-content: end;
-    text-align: right;
+    text-align: left;
   }
 </style>

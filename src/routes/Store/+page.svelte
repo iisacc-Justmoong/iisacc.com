@@ -12,7 +12,7 @@
 <div class="cardBoard">
 	<a href="/Store/TimeScopes">
 		<AppCard background="{TimeScopesBackground}">
-			<img slot="icon" src="/images/app/Time%20Scopes.png" alt="앱 아이콘" width="64" height="64" />
+			<img slot="icon" src="/images/app/Time%20Scopes.png" alt="Time Scopes Icon" width="64" height="64" />
 			<span slot="title">Time Scopes</span>
 			<span slot="price">Free</span>
 			<p slot="description">Lifetime event tracker.</p>
@@ -21,7 +21,7 @@
 
 	<a href="/Store/Vincent">
 		<AppCard background="{VincentBackground}">
-			<img slot="icon" src="/images/app/Vincent.png" alt="앱 아이콘" width="64" height="64" />
+			<img slot="icon" src="/images/app/Vincent.png" alt="Vincent Icon" width="64" height="64" />
 			<span slot="title">Vincent</span>
 			<span slot="price">10$</span>
 			<p slot="description">Your basic macOS painter.</p>
