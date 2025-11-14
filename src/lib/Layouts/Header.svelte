@@ -6,18 +6,10 @@
 	<div class="title">
 		<a href="/">
 	<img class="iisacccom-1" src="/icons/IISACC.svg" alt="Logo"/>
-			<div class="software-company-header">
-				<div><span class="techsavvy_span">iisacc</span></div>
-			</div>
 		</a>
 	</div>
 
-	<div class="pagelinks">
-		<div class="pagelink">
-			<a href="/Store">
-				<div><span class="tag_span">Store</span></div>
-			</a>
-		</div>
+
 		<div class="pagelink">
 			<a href="/Contents">
 				<div><span class="tag_span">Contents</span></div>
@@ -31,6 +23,12 @@
 		<div class="pagelink">
 			<a href="/Story">
 				<div><span class="tag_span">Story</span></div>
+			</a>
+		</div>
+	<div class="pagelinks">
+		<div class="pagelink">
+			<a href="/Store">
+				<div><span class="tag_span">Store</span></div>
 			</a>
 		</div>
 

@@ -5,11 +5,20 @@
 
 <Header />
 
-<div>
+<div class="container">
 	<img class="appicon" src="/images/app/Time Scopes.png" alt="Time Scopes"/>
 	<h1 class="app-name">Time Scopes</h1>
 	<div class="description">
 		<p class="description">Time Scopes is a life time tracker. It shows to you remaining your lifetime and other informations. We are live and you're officially invited to see what's new. Download on the App Store today. Click under button to go to App Store.</p>
+		<p>
+			Sometimes we get lazy, or we often forget how much value our lives are. Humans are very clever animals, but they often do not understand the value of time properly, such as spending 2 hours to get a coupon that is less than an hour's salary. The value of time is so great that it can't be priced. Nevertheless, this valuable time is wasted meaninglessly.
+		</p>
+		<p>
+			Look back on the past time and clearly recognize the time left for you in the future. I've spent more time than I thought, and I've been given less time than I thought. Look at the past time and given time from various angles. Simply reading the date can give you a new sense that you never felt. The new sense gained in this way will give you a better passion. The lives of those who know the value of time and those who don't are very different.
+		</p>
+		<p>
+			There is no more waste of time. You can check the time that has passed and the remaining time in your hands at any time.
+		</p>
 	</div>
 	<a class="appstore" href="https://apps.apple.com/kr/app/time-scopes/id6747707757?l=en-GB
 Time Scopes">
@@ -22,12 +31,16 @@ Time Scopes">
 <Footer />
 
 <style>
-    description p{
-			max-width: none;
+
+	.container {
 			width: 720px;
-	}
+			max-width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+  }
+
 	p{
-			margin-bottom: 6px;
+			margin-bottom: 16px;
 	}
 	img {
 			width: 128px;
