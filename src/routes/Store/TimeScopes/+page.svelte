@@ -6,7 +6,7 @@
 <Header />
 
 <div>
-	<img class="appicon" src="/images/app/TimeScopesPost.png" alt="Time Scopes"/>
+	<img class="appicon" src="/images/app/Time Scopes.png" alt="Time Scopes"/>
 	<h1 class="app-name">Time Scopes</h1>
 	<p>Time Scopes is a life time tracker. It shows to you remaining your lifetime and other informations</p>
 	<p>We are live and you're officially invited to see what's new. Download on the App Store today. Click under button to go to App Store.</p>
@@ -32,10 +32,11 @@ Time Scopes">
 	}
 
 	.appicon {
-			width: 720px;
-			height: auto;
+			width: 320;
+			height: 320;
 			aspect-ratio: 1/1.6;
 			margin-bottom: 32px;
+			aspect-ratio: 1.1;
 	}
 
 	.app-name {
