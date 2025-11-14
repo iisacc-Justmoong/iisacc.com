@@ -28,12 +28,11 @@
 <style>
   .card {
     display: grid;
-    grid-template-rows: auto 1fr auto;
     gap: 16px;
     width: 100%;
     padding: 32px;
     align-items: center;
-    background-color: var(--color-card-bg);
+    background-color: var(--color-background-secondary);
     border-radius: 32px;
   }
   .top {
@@ -61,6 +60,7 @@
     justify-self: end;
     white-space: nowrap;
     text-align: right;
+    font-weight: 600;
     align-items: center;
     color: var(--text-primary);
     background-color: var(--color-accent-blue);
