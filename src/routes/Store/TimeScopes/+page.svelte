@@ -8,8 +8,9 @@
 <div>
 	<img class="appicon" src="/images/app/Time Scopes.png" alt="Time Scopes"/>
 	<h1 class="app-name">Time Scopes</h1>
-	<p>Time Scopes is a life time tracker. It shows to you remaining your lifetime and other informations</p>
-	<p>We are live and you're officially invited to see what's new. Download on the App Store today. Click under button to go to App Store.</p>
+	<div class="description">
+		<p class="description">Time Scopes is a life time tracker. It shows to you remaining your lifetime and other informations. We are live and you're officially invited to see what's new. Download on the App Store today. Click under button to go to App Store.</p>
+	</div>
 	<a class="appstore" href="https://apps.apple.com/kr/app/time-scopes/id6747707757?l=en-GB
 Time Scopes">
 		<img class="appstore" src="/images/appstore.svg" alt="App Store"/>
@@ -21,50 +22,45 @@ Time Scopes">
 <Footer />
 
 <style>
+    description p{
+			max-width: none;
+			width: 720px;
+	}
 	p{
-			margin-bottom: 16px;
+			margin-bottom: 6px;
 	}
-
 	img {
-			width: 256px;
-			height: 256px;
-			border-radius: 48px;
+			width: 128px;
+			height: 128px;
+			border-radius: 32px;
 	}
-
 	.appicon {
-			width: 320;
-			height: 320;
-			aspect-ratio: 1/1.6;
-			margin-bottom: 32px;
+			margin-bottom: 16px;
 			aspect-ratio: 1.1;
 	}
-
 	.app-name {
 			text-align: center;
 			margin-top: 32px;
 			margin-bottom: 32px;
 	}
-
   .qrcode {
-      width: 200px;
-      height: 200px;
+      width: 256px;
+      height: 256px;
       margin-top: 32px;
       margin-bottom: 32px;
       margin-left: auto;
       margin-right: auto;
       border-radius: 0;
   }
-
   .appstore {
       width: 200px;
       height: 62px;
-      margin-top: 32px;
-      margin-bottom: 32px;
+      margin-top: 128px;
+      margin-bottom: 128px;
       margin-left: auto;
       margin-right: auto;
       border-radius: 8px;
   }
-
 	.privacy {
 			margin-top: 32px;
 	}

@@ -11,7 +11,7 @@
 
 <div class="cardBoard">
 	<a href="/Store/TimeScopes">
-		<AppCard background="{TimeScopesBackground}">
+		<AppCard>
 			<img slot="icon" src="/images/app/Time%20Scopes.png" alt="Time Scopes Icon" width="64" height="64" />
 			<span slot="title">Time Scopes</span>
 			<span slot="price">Free</span>
@@ -20,7 +20,7 @@
 	</a>
 
 	<a href="/Store/Vincent">
-		<AppCard background="{VincentBackground}">
+		<AppCard>
 			<img slot="icon" src="/images/app/Vincent.png" alt="Vincent Icon" width="64" height="64" />
 			<span slot="title">Vincent</span>
 			<span slot="price">$5</span>
@@ -40,6 +40,7 @@
       display: grid;
       grid-template-columns: 1fr;
       gap: 16px;
+			margin-top: 32px;
   }
   @media (min-width: 768px) {
       .cardBoard {
