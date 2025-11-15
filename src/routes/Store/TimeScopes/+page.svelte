@@ -38,7 +38,6 @@ Time Scopes">
 			margin-left: auto;
 			margin-right: auto;
   }
-
 	p{
 			margin-bottom: 16px;
 	}

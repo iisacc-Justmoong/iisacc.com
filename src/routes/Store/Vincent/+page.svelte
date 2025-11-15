@@ -5,4 +5,8 @@
 
 <Header />
 
+<div class="title">
+	<h1>Vincent</h1>
+</div>
+
 <Footer />

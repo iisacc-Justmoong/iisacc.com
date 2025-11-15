@@ -30,7 +30,7 @@
     display: grid;
     gap: 16px;
     width: 100%;
-    padding: 32px;
+    padding: 24px;
     align-items: center;
     background-color: var(--color-background-secondary);
     border-radius: 32px;
@@ -48,9 +48,9 @@
   }
   .texts {
     display: flex;
+    height: 100%;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
   }
   .title {
     margin: 0;
