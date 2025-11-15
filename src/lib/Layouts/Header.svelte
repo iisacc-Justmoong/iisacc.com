@@ -82,9 +82,4 @@
         gap: 12px;
         display: flex;
     }
-    .software-company-header {
-        justify-content: space-between;
-        align-items: center;
-        display: flex;
-    }
 </style>
