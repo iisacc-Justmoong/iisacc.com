@@ -57,13 +57,6 @@
         transform-origin: top left;
 				border-radius: 0%;
     }
-    .techsavvy_span {
-        color: white;
-        font-size: 28px;
-        font-weight: 500;
-        line-height: 28px;
-        word-wrap: break-word;
-    }
     .tag_span {
         color: white;
         font-size: 15px;

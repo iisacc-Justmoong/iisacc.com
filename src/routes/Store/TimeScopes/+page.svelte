@@ -9,7 +9,7 @@
 	<img class="appicon" src="/images/app/Time Scopes.png" alt="Time Scopes"/>
 	<h1 class="app-name">Time Scopes</h1>
 	<div class="description">
-		<p class="description">Time Scopes is a life time tracker. It shows to you remaining your lifetime and other informations. We are live and you're officially invited to see what's new. Download on the App Store today. Click under button to go to App Store.</p>
+		<p>Time Scopes is a life time tracker. It shows to you remaining your lifetime and other informations. We are live and you're officially invited to see what's new. Download on the App Store today. Click under button to go to App Store.</p>
 		<p>
 			Sometimes we get lazy, or we often forget how much value our lives are. Humans are very clever animals, but they often do not understand the value of time properly, such as spending 2 hours to get a coupon that is less than an hour's salary. The value of time is so great that it can't be priced. Nevertheless, this valuable time is wasted meaninglessly.
 		</p>

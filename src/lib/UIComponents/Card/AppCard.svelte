@@ -33,7 +33,7 @@
     padding: 24px;
     align-items: center;
     background-color: var(--color-background-secondary);
-    border-radius: 32px;
+    border-radius: 24px;
   }
   .top {
     display: grid;
