@@ -138,8 +138,5 @@
 <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
 <h2>Contact Us</h2>
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
-<ul>
-	<li>By email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0e7763776b6160693e3b3e3a4e69636f6762206d6163">[email&#160;protected]</a></li>
-</ul>
 
 <Footer />
