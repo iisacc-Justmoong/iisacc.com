@@ -1,9 +1,10 @@
 <script>
-	import Header from '$lib/Layouts/Header.svelte';
-	import Footer from '$lib/Layouts/Footer.svelte';
+
+import Header from '$lib/Layouts/Header.svelte';
+import Footer from '$lib/Layouts/Footer.svelte';
 </script>
 
-<Header />
+<Header/>
 
 <h1>Privacy Policy</h1>
 <p>Last updated: November 15, 2025</p>
@@ -138,5 +139,8 @@
 <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
 <h2>Contact Us</h2>
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
+<ul>
+	<li>By email: ymyeong0504@gmail.com</li>
+</ul>
 
-<Footer />
+<Footer/>
