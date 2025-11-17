@@ -20,7 +20,7 @@
 		<AppCard>
 			<img slot="icon" src="/images/app/Vincent.png" alt="Vincent Icon" width="64" height="64" />
 			<span slot="title">Vincent</span>
-			<span slot="price">$5</span>
+			<span slot="price">$0.99</span>
 			<p slot="description">Your basic macOS painter.</p>
 		</AppCard>
 	</a>
