@@ -17,7 +17,6 @@
 - [x] mdsvex - For static markdown posting
 - [x] adapter-static - For static website build
 
-
 ### Server / Systems
 
 - [x] SvelteKit

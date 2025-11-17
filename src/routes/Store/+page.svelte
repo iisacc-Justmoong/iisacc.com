@@ -4,7 +4,7 @@
 	import AppCard from '$lib/UIComponents/Card/AppCard.svelte';
 </script>
 
-<Header/>
+<Header />
 
 <div class="cardBoard">
 	<a href="/Store/TimeScopes">
@@ -29,22 +29,24 @@
 <Footer />
 
 <style>
-
 	img {
-			border-radius: 16px;
+		border-radius: 16px;
 	}
-  .cardBoard {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 16px;
-			margin-top: 32px;
-  }
-  @media (min-width: 768px) {
-      .cardBoard {
-          display: flex;
-          flex-flow: row wrap;
-          gap: 16px;
-      }
-      .cardBoard > a { flex: 1 1 360px; min-width: 0; }
-  }
+	.cardBoard {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 16px;
+		margin-top: 32px;
+	}
+	@media (min-width: 768px) {
+		.cardBoard {
+			display: flex;
+			flex-flow: row wrap;
+			gap: 16px;
+		}
+		.cardBoard > a {
+			flex: 1 1 360px;
+			min-width: 0;
+		}
+	}
 </style>
