@@ -64,6 +64,6 @@
 	}
 	.desc {
 		text-align: left;
-    color: var(--color-text-secondary);
+		color: var(--color-text-secondary);
 	}
 </style>
