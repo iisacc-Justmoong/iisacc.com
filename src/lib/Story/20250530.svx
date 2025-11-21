@@ -4,7 +4,7 @@ A simple life, far removed from the dense crowds and vast machinery of society�
 
 Lately, when I visit Seoul, a few thoughts come to mind. When I see the square-shaped buildings with uniformly sized windows, they remind me of poultry cages—facilities designed solely for feeding and egg production. Everywhere is crowded with people, and it feels as though the same rules and standards applied to objects are also imposed on human beings, making the place feel constrained and unfree.
 
-![Seoul](/images/Seoul.png)
+![Seoul](/images/story/Seoul.png)
 
 One chooses to leave behind the vast machinery of mass society and moves toward a place of low population density. In doing so, one gradually distances oneself from overcrowded spaces and begins to encounter small, localized communities composed of neighbors, friends, and cherished individuals. Throughout human history, the most fundamental form of interpersonal relationship has been the small community—one not mediated by any religion in the broad sense, such as systems of contracts or codified laws. In order to avoid excessive friction with strangers, humans began to build large-scale societies under shared belief systems—capitalism, democracy, socialism, or theistic religions—each functioning as a kind of faith.
 
