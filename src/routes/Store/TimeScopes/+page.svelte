@@ -37,7 +37,7 @@
 		href="https://apps.apple.com/kr/app/time-scopes/id6747707757?l=en-GB
 Time Scopes"
 	>
-		<img class="appstore" src="/images/appstore.svg" alt="App Store" />
+		<img class="appstore" src="/images/app/appstore.svg" alt="App Store" />
 	</a>
 	<img class="qrcode" src="/images/app/TimeScopes-qr-code.png" alt="QR Code" />
 	<a class="privacy" href="/Store/TimeScopes/Privacy">Privacy policy</a>
