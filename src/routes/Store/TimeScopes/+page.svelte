@@ -6,7 +6,7 @@
 <Header />
 
 <div class="container">
-	<img class="appicon" src="/images/app/Time Scopes.png" alt="Time Scopes" />
+	<img class="appicon" src="/images/app/Time Scopes.png" alt="Time Scopes" loading="lazy" />
 	<h1 class="app-name">Time Scopes</h1>
 	<div class="description">
 		<p>
@@ -32,14 +32,10 @@
 			in your hands at any time.
 		</p>
 	</div>
-	<a
-		class="appstore"
-		href="https://apps.apple.com/kr/app/time-scopes/id6747707757?l=en-GB
-Time Scopes"
-	>
-		<img class="appstore" src="/images/app/appstore.svg" alt="App Store" />
+	<a class="appstore" href="https://apps.apple.com/kr/app/time-scopes/id6747707757?l=en-GB">
+		<img class="appstore" src="/images/app/appstore.svg" alt="App Store" loading="lazy" />
 	</a>
-	<img class="qrcode" src="/images/app/TimeScopes-qr-code.png" alt="QR Code" />
+	<img class="qrcode" src="/images/app/TimeScopes-qr-code.png" alt="QR Code" loading="lazy" />
 	<a class="privacy" href="/Store/TimeScopes/Privacy">Privacy policy</a>
 </div>
 

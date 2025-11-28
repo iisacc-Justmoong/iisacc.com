@@ -1,3 +1,13 @@
+---
+title: "I'm preparing to move to a new home"
+description: 'Choosing a quieter home and community while questioning industrial society and human-scale living.'
+slug: '20250530'
+date: '2025-05-30'
+updated: '2025-05-30'
+image: '/images/story/Seoul.png'
+imageAlt: 'Illustration of Seoul'
+---
+
 ## I'm prepare move to new home
 
 A simple life, far removed from the dense crowds and vast machinery of society—a secluded place where peace and freedom prevail precisely because of its remoteness.

@@ -1,3 +1,13 @@
+---
+title: "I'm fighting Bipolar Disorder"
+description: 'Personal reflections on solitude, bipolar disorder, and seeking treatment while building IISACC.'
+slug: '20250711'
+date: '2025-07-11'
+updated: '2025-07-11'
+image: '/images/story/BipolarDisorderPencil.png'
+imageAlt: 'Pencil drawing representing bipolar disorder'
+---
+
 ## I’m fighting to Bipolar Disorder
 
 Loneliness and solitude, those spectres that forever trail beside me, have led the people around me to call me mechanical, a nerd, a hikikomori. I know perfectly well what they mean. At times I retreat alone into my room, fired by a craftsman’s spirit to make something with my own hands; these days I am absorbed in product design and 3-D printing, though in the past I was devoted to art. I used to draw and, hoping to move on to filmmaking, would sit in front of a computer, the only small glow in an otherwise dark room. I failed, of course, yet from time to time I still show such facets of myself.

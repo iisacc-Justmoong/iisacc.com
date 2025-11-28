@@ -6,7 +6,7 @@
 <Header />
 
 <div class="container">
-	<img class="appicon" src="/images/app/Vincent.png" alt="Vincent app icon" />
+	<img class="appicon" src="/images/app/Vincent.png" alt="Vincent app icon" loading="lazy" />
 	<h1 class="appname">Vincent</h1>
 	<div class="description">
 		<p class="description">

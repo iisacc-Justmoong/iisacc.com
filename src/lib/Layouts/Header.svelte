@@ -1,45 +1,37 @@
 <script>
+	import { navigationLinks } from '$lib/config/site.js';
+
+	const navItems = navigationLinks;
 </script>
 
-<div class="header">
+<header class="header">
 	<div class="title">
-		<a href="/">
-			<img class="iisacccom-1" src="/icons/IISACC.svg" alt="Logo" />
+		<a href="/" aria-label="IISACC home">
+			<img class="iisacccom-1" src="/icons/IISACC.svg" alt="IISACC logo" />
 		</a>
 	</div>
 
-	<div class="pagelink">
-		<a href="/Contents">
-			<div><span class="tag_span">Contents</span></div>
-		</a>
-	</div>
-	<div class="pagelink">
-		<a href="/World">
-			<div><span class="tag_span">World</span></div>
-		</a>
-	</div>
-	<div class="pagelink">
-		<a href="/Story">
-			<div><span class="tag_span">Story</span></div>
-		</a>
-	</div>
-	<div class="pagelinks">
-		<div class="pagelink">
-			<a href="/Store">
-				<div><span class="tag_span">Store</span></div>
-			</a>
-		</div>
-	</div>
-</div>
+	<nav aria-label="Primary navigation">
+		<ul class="nav-list">
+			{#each navItems as item}
+				<li class="nav-item">
+					<a href={item.href}>
+						<span class="tag_span">{item.title}</span>
+					</a>
+				</li>
+			{/each}
+		</ul>
+	</nav>
+</header>
 
 <style>
 	.header {
+		display: flex;
 		gap: 16px;
 		align-items: center;
 		width: 100%;
 		height: 100%;
 		justify-content: flex-start;
-		display: inline-flex;
 		margin-bottom: 32px;
 	}
 	.title a {
@@ -61,22 +53,16 @@
 		line-height: 20px;
 		word-wrap: break-word;
 	}
-
-	.pagelink {
-		justify-content: flex-start;
+	.nav-list {
+		display: flex;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		gap: 12px;
+	}
+	.nav-item a {
+		display: inline-flex;
 		align-items: center;
 		gap: 4px;
-		display: flex;
-	}
-	.pagelink {
-		justify-content: flex-start;
-		align-items: center;
-		display: flex;
-	}
-	.pagelinks {
-		justify-content: flex-start;
-		align-items: flex-start;
-		gap: 12px;
-		display: flex;
 	}
 </style>
