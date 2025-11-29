@@ -1,6 +1,6 @@
 export const siteMetadata = {
 	name: 'IISACC',
-	tagline: 'Existential software studio',
+	tagline: 'Pragmatic and Bizarre studio',
 	description:
 		'IISACC builds long-lifespan software such as Vincent and Time Scopes, focusing on survival, health, and daily systems.',
 	url: 'https://iisacc.com',
