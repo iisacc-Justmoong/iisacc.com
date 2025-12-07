@@ -25,13 +25,15 @@
 
 <section class="story-grid">
 	{#each stories as story}
+		<a class="story-link" href={`/Story/${story.slug}`}>
 		<article class="story-card">
-			<a class="story-link" href={`/Story/${story.slug}`}>
+
 				<h2>{story.title}</h2>
-			</a>
+
 			<time datetime={story.date}>{formatDate(story.date)}</time>
 			<p>{story.description}</p>
 		</article>
+		</a>
 	{/each}
 </section>
 

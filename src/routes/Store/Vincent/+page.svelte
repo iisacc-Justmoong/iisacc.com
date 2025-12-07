@@ -42,8 +42,11 @@
 			stability, and clarity, it embodies the core productivity philosophy that has long defined the
 			macOS ecosystem.
 		</p>
-		<a class="privacy" href="/Store/Vincent/Privacy">Privacy policy</a>
 	</div>
+	<a class="download" href="/apps/Vincent-1.0.0.pkg" download aria-label="Download Vincent 1.0.0 for macOS">
+		Download Vincent 1.0.0
+	</a>
+	<a class="privacy" href="/Store/Vincent/Privacy">Privacy policy</a>
 </div>
 
 <Footer />
@@ -68,6 +71,28 @@
 	}
 	p {
 		margin-bottom: 16px;
+	}
+	.download {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 12px 32px;
+		margin-top: 64px;
+		border-radius: 999px;
+		background: #111;
+		color: white;
+		font-weight: 600;
+		text-decoration: none;
+		box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+		transition: transform 160ms ease, box-shadow 160ms ease;
+	}
+	.download:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+	}
+	.download:active {
+		transform: translateY(1px);
+		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
 	}
 	.privacy {
 		margin-top: 128px;

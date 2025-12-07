@@ -34,7 +34,7 @@
 				loading="lazy"
 			/>
 			<span slot="title">Vincent</span>
-			<span slot="price">$0.99</span>
+			<span slot="price">Free</span>
 			<p slot="description">Your basic macOS painter.</p>
 		</AppCard>
 	</a>
