@@ -1,12 +1,12 @@
 export const siteMetadata = {
-	name: 'IISACC',
-	tagline: 'Pragmatic and Bizarre studio',
+	name: 'iisacc',
+	tagline: 'Artwork Engineering Studio',
 	description:
-		'IISACC builds long-lifespan software such as Vincent and Time Scopes, focusing on survival, health, and daily systems.',
+		'iisacc builds long-lifespan software such as Vincent and Time Scopes, focusing on survival, health, and daily systems.',
 	url: 'https://iisacc.com',
 	locale: 'en_US',
 	sameAs: ['https://github.com/iisacc-Justmoong'],
-	defaultImage: '/images/Seoul.png',
+	defaultImage: '/favicon.png',
 	brandColor: '#040b18'
 };
 
@@ -15,11 +15,11 @@ export const defaultKeywords = [
 	'Vincent app',
 	'Time Scopes',
 	'existential software',
-	'survival tools',
+	'pragmatic tools',
 	'macOS drawing app',
 	'lifetime tracker',
-	'SvelteKit studio',
-	'digital wellness apps',
+	'Written by SvelteKit',
+	'digital apps',
 	'productivity software'
 ];
 
