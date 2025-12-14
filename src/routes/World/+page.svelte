@@ -8,7 +8,7 @@
 <section class="page-intro">
 	<h1>World</h1>
 	<p>
-		Operational updates about IISACC &mdash; infrastructure, supply chains, and collaborators that
+		Operational updates about iisacc foundation &mdash; infrastructure, supply chains, and collaborators that
 		enable long-lifespan software.
 	</p>
 </section>
