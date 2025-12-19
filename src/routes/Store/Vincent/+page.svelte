@@ -5,96 +5,283 @@
 
 <Header />
 
-<div class="container">
-	<img class="appicon" src="/images/app/Vincent.png" alt="Vincent app icon" loading="lazy" />
-	<h1 class="appname">Vincent</h1>
-	<div class="description">
-		<p class="description">
-			Vincent is designed to provide macOS users with the most fundamental, immediately
-			understandable, and intuitively operable drawing tool. Unlike professional graphics software
-			with extensive feature sets, it focuses on enabling the simple acts of drawing lines, filling
-			colors, and composing images without unnecessary complexity. A lightweight rendering engine
-			optimized for macOS input systems, texture processing, and high-resolution displays ensures
-			smooth performance and clear visual feedback, thereby supporting a workflow uninterrupted by
-			excessive interfaces or learning curves.
+<section class="hero container">
+	<div class="hero-copy">
+		<p class="eyebrow">Essential Studio Tools</p>
+		<h1>Vincent for macOS</h1>
+		<p class="lede">
+			Vincent distills the macOS painting experience into a poised, ultra-responsive canvas. No
+			accounts, no onboarding labyrinth—just the pleasure of sketching as soon as inspiration
+			strikes.
 		</p>
 		<p>
-			Its core functionality consists of essential tools such as freehand drawing, fill, eraser, and
-			adjustable brush parameters, complemented by the ability to import and export images. This
-			allows the application to serve a wide range of everyday tasks including sketching,
-			note-taking, and basic graphic creation. Despite its simplicity, the file-handling
-			architecture has been carefully built to comply with macOS sandboxing and security
-			requirements, ensuring that all saving, loading, and conversion processes adhere strictly to
-			system-standard APIs. This structure is intended to guarantee both predictable behavior and
-			stable operation.
+			The app’s rendering core is tuned for Apple silicon and Intel Macs alike, meaning every stroke
+			lands with analogue softness while staying digitally precise. It is for designers rehearsing a
+			composition, founders mapping a product, illustrators shaping palettes, or anyone who just
+			needs to think through their hands.
 		</p>
-		<p>
-			The application avoids subscription models and network-dependent features, relying instead on
-			a fully local workflow in which all essential capabilities are available immediately upon
-			launch. Users can begin working without additional configuration or onboarding, in line with
-			the longstanding macOS tradition of simplicity and clarity. Its lightweight design and minimal
-			resource usage also allow the application to function smoothly even on older Mac hardware.
-		</p>
-		<p>
-			In summary, this application provides a reliable, modern implementation of the most basic
-			drawing tool that macOS users often need. It offers an unobtrusive canvas for sketching ideas,
-			organizing thoughts visually, or performing simple image edits. By emphasizing immediacy,
-			stability, and clarity, it embodies the core productivity philosophy that has long defined the
-			macOS ecosystem.
-		</p>
+		<ul class="promises">
+			<li>Freehand, fill, eraser, and selection tools with pressure-aware brushes.</li>
+			<li>Imports PSD, PNG, JPEG, and HEIC; exports pristine layered PNGs.</li>
+			<li>Zero network calls—Vincent operates entirely on device for absolute privacy.</li>
+		</ul>
+		<div class="cta-row">
+			<a
+				class="primary-cta"
+				href="/apps/Vincent-1.0.0.pkg"
+				download
+				aria-label="Download Vincent 1.0.0 for macOS"
+			>
+				Download Vincent 1.0.0
+			</a>
+			<a class="secondary-cta" href="#details">Review details</a>
+		</div>
 	</div>
-	<a class="download" href="/apps/Vincent-1.0.0.pkg" download aria-label="Download Vincent 1.0.0 for macOS">
-		Download Vincent 1.0.0
-	</a>
+	<div class="hero-panel">
+		<img class="appicon" src="/images/app/Vincent.png" alt="Vincent app icon" loading="lazy" />
+		<div class="hero-panel__body">
+			<p class="panel-title">A modern interpretation of the macOS classic Paint experience.</p>
+			<div class="panel-meta">
+				<div>
+					<p class="meta-label">Compatibility</p>
+					<p class="meta-value">macOS 12 or later</p>
+				</div>
+				<div>
+					<p class="meta-label">Architecture</p>
+					<p class="meta-value">Universal (Intel + Apple silicon)</p>
+				</div>
+				<div>
+					<p class="meta-label">Footprint</p>
+					<p class="meta-value">&lt; 25&nbsp;MB install</p>
+				</div>
+			</div>
+			<p class="panel-copy">
+				Vincent keeps the interface lyrical: floating palettes glide, layers tuck neatly, and the
+				color well echoes Studio Display glass. Everything is rendered with inertial motion so the
+				tool fades behind the craft.
+			</p>
+		</div>
+	</div>
+</section>
+
+<section id="details" class="details container">
+	<article>
+		<h3>Paper-smooth input</h3>
+		<p>
+			Optimized event handling recognises double-tap gestures, Apple Pencil via Sidecar, and
+			trackpad pressure modulation. Every stroke respects macOS accessibility preferences, including
+			reduced motion and increased contrast.
+		</p>
+	</article>
+	<article>
+		<h3>Studio-grade colour</h3>
+		<p>
+			HSL and HEX pickers sit beside curated swatch books inspired by heritage paint houses. You can
+			lock palettes to stay consistent across boards or invite random inspiration with a single tap.
+		</p>
+	</article>
+	<article>
+		<h3>Quiet file system</h3>
+		<p>
+			The sandbox-friendly file pipeline ensures projects autosave locally with version snapshots.
+			When you export to Mail, Messages, or AirDrop, Vincent respects native share sheets—no
+			proprietary formats, no compression surprises.
+		</p>
+	</article>
+	<article>
+		<h3>Focus &amp; flow</h3>
+		<p>
+			Full-screen, split view, and Stage Manager layouts are supported. A minimalist heads-up HUD
+			provides brush info without eclipsing the artwork, and gestures are intentionally minimalist
+			so your mind stays on the canvas.
+		</p>
+	</article>
+</section>
+
+<section class="download container">
+	<div class="download-card">
+		<div>
+			<p class="download-title">Ready for your desktop.</p>
+			<p class="download-copy">
+				Install the signed package, launch Vincent, and start sketching on a blank infinity board
+				in under ten seconds.
+			</p>
+		</div>
+		<a
+			class="primary-cta"
+			href="/apps/Vincent-1.0.0.pkg"
+			download
+			aria-label="Download Vincent 1.0.0 for macOS"
+		>
+			Download Vincent 1.0.0
+		</a>
+	</div>
 	<a class="privacy" href="/Store/Vincent/Privacy">Privacy policy</a>
-</div>
+</section>
 
 <Footer />
 
 <style>
 	.container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 720px;
-		max-width: 100%;
+		width: min(1040px, 100%);
 		margin-left: auto;
 		margin-right: auto;
+		padding: 32px 20px;
+	}
+	.hero {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+		align-items: flex-start;
+		margin-top: 48px;
+	}
+	.hero-copy h1 {
+		font-size: clamp(2.3rem, 5vw, 3.3rem);
+		margin-bottom: 16px;
+	}
+	.hero-copy p {
+		color: var(--color-text-secondary);
+	}
+	.eyebrow {
+		text-transform: uppercase;
+		letter-spacing: 0.2em;
+		font-size: 0.75rem;
+		color: rgba(255, 255, 255, 0.7);
+		margin-bottom: 16px;
+	}
+	.lede {
+		font-size: 1.15rem;
+		color: var(--color-text);
+		margin-bottom: 16px;
+	}
+	.promises {
+		list-style: none;
+		padding: 0;
+		margin: 24px 0;
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		color: rgba(255, 255, 255, 0.75);
+	}
+	.cta-row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 12px;
+	}
+	.primary-cta,
+	.secondary-cta {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 12px 28px;
+		border-radius: 999px;
+		font-weight: 600;
+		text-decoration: none;
+		transition: transform 150ms ease, background 150ms ease, color 150ms ease;
+	}
+	.primary-cta {
+		background: linear-gradient(120deg, #ffd89c, #ff8fb1);
+		color: #201201;
+		box-shadow: 0 18px 45px rgba(255, 143, 177, 0.35);
+	}
+	.primary-cta:hover {
+		transform: translateY(-2px);
+	}
+	.secondary-cta {
+		border: 1px solid rgba(255, 255, 255, 0.2);
+		color: var(--color-text);
+	}
+	.secondary-cta:hover {
+		border-color: rgba(255, 255, 255, 0.4);
+	}
+	.hero-panel {
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.06);
+		border-radius: 32px;
+		padding: 32px;
+		backdrop-filter: blur(16px);
+		box-shadow: 0 30px 120px rgba(0, 0, 0, 0.35);
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
 	}
 	.appicon {
 		width: 128px;
 		height: 128px;
 		border-radius: 32px;
-		text-align: center;
-		margin-top: 32px;
 	}
-	p {
-		margin-bottom: 16px;
+	.hero-panel__body {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+	.panel-title {
+		font-size: 1.1rem;
+		font-weight: 600;
+	}
+	.panel-meta {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+	.meta-label {
+		font-size: 0.75rem;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		color: rgba(255, 255, 255, 0.55);
+	}
+	.meta-value {
+		font-size: 0.95rem;
+		font-weight: 600;
+		color: rgba(255, 255, 255, 0.9);
+	}
+	.panel-copy {
+		color: rgba(255, 255, 255, 0.7);
+	}
+	.details {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		padding-top: 32px;
+	}
+	.details article {
+		padding: 24px;
+		border-radius: 24px;
+		background: rgba(7, 8, 12, 0.85);
+		border: 1px solid rgba(255, 255, 255, 0.04);
+		box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+	}
+	.details h3 {
+		margin-bottom: 12px;
+		font-size: 1.05rem;
+	}
+	.details p {
+		color: rgba(255, 255, 255, 0.72);
 	}
 	.download {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 12px 32px;
-		margin-top: 64px;
-		border-radius: 999px;
-		background: #111;
-		color: white;
+		padding-bottom: 96px;
+	}
+	.download-card {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		padding: 32px;
+		border-radius: 28px;
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01));
+		box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+	}
+	.download-title {
+		font-size: 1.35rem;
 		font-weight: 600;
-		text-decoration: none;
-		box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-		transition: transform 160ms ease, box-shadow 160ms ease;
 	}
-	.download:hover {
-		transform: translateY(-2px);
-		box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
-	}
-	.download:active {
-		transform: translateY(1px);
-		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+	.download-copy {
+		color: rgba(255, 255, 255, 0.7);
 	}
 	.privacy {
-		margin-top: 128px;
+		display: inline-flex;
+		margin-top: 32px;
+		color: rgba(255, 255, 255, 0.7);
+		text-decoration: underline;
 	}
 </style>

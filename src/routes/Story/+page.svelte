@@ -54,8 +54,8 @@
 		margin-bottom: 4px;
 	}
 	.story-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		display: flex;
+		flex-direction: column;
 		gap: 24px;
 	}
 	.story-card {
