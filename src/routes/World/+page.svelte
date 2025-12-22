@@ -1,35 +1,28 @@
 <script>
 	import Footer from '$lib/Layouts/Footer.svelte';
 	import Header from '$lib/Layouts/Header.svelte';
+	import HeroSection from '$lib/UIComponents/Section/HeroSection.svelte';
+	import PlaceholderPanel from '$lib/UIComponents/Section/PlaceholderPanel.svelte';
 </script>
 
 <Header />
 
-<section class="page-intro">
-	<h1>World</h1>
-	<p>
-		Operational updates about iisacc foundation &mdash; infrastructure, supply chains, and collaborators that
-		enable long-lifespan software.
-	</p>
-</section>
+<HeroSection
+	eyebrow="Field Operations"
+	title="World"
+	description="Operational updates about iisacc foundation — infrastructure, supply chains, and collaborators that enable long-lifespan software."
+	variant="plain"
+	className="world-hero"
+/>
 
-<section class="placeholder">
+<PlaceholderPanel>
 	<p>Studio updates, photos, and dispatches will be added shortly.</p>
-</section>
+</PlaceholderPanel>
 
 <Footer />
 
 <style>
-	.page-intro {
-		display: flex;
-		flex-direction: column;
-		gap: 12px;
+	.world-hero {
 		margin-bottom: 32px;
-	}
-	.placeholder {
-		border: 1px dashed rgba(255, 255, 255, 0.2);
-		border-radius: 16px;
-		padding: 24px;
-		color: var(--color-text-secondary);
 	}
 </style>

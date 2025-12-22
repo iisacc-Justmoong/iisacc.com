@@ -1,6 +1,7 @@
 <script>
 	import Header from '$lib/Layouts/Header.svelte';
 	import Footer from '$lib/Layouts/Footer.svelte';
+	import SurfaceCard from '$lib/UIComponents/Card/SurfaceCard.svelte';
 </script>
 
 <Header />
@@ -35,24 +36,24 @@
 		</section>
 
 		<section class="list">
-			<article>
+			<SurfaceCard tag="article" className="list-card">
 				<h2>Time Scopes</h2>
 				<p>Track remaining decades, rituals, and promises with an elegant act of measurement.</p>
 				<a href="/Store/TimeScopes" class="inline-link">View app →</a>
-			</article>
-			<article>
+			</SurfaceCard>
+			<SurfaceCard tag="article" className="list-card">
 				<h2>Vincent</h2>
 				<p>Start drawing on macOS instantly—brushes, fills, and exports with zero onboarding.</p>
 				<a href="/Store/Vincent" class="inline-link">View app →</a>
-			</article>
-			<article>
+			</SurfaceCard>
+			<SurfaceCard tag="article" className="list-card">
 				<h2>Story &amp; research</h2>
 				<p>Read the ongoing thesis, survival notes, and process logs that shape each release.</p>
 				<a href="/Story" class="inline-link">Read more →</a>
-			</article>
+			</SurfaceCard>
 		</section>
 
-		<section class="note">
+		<SurfaceCard tag="section" className="note" padding="24px">
 			<div>
 				<h2>Building calm tools, not platforms.</h2>
 				<p>
@@ -61,7 +62,7 @@
 				</p>
 			</div>
 			<a class="button ghost" href="mailto:andudyun0504gmail.com">Say hello</a>
-		</section>
+		</SurfaceCard>
 	</div>
 </main>
 
@@ -156,17 +157,8 @@
 		flex-direction: column;
 		gap: 20px;
 	}
-		.list {
-			width: 100%;
-		}
-		.list article {
-			width: 100%;
-			padding: 20px;
-			border-radius: 20px;
-		border: 1px solid rgba(255, 255, 255, 0.05);
-		background: rgba(255, 255, 255, 0.02);
-		display: flex;
-		flex-direction: column;
+	.list-card {
+		width: 100%;
 		gap: 10px;
 	}
 	.list h2 {
@@ -184,14 +176,10 @@
 	.inline-link:hover {
 		text-decoration: underline;
 	}
-		.note {
-			display: flex;
-			flex-direction: column;
-			gap: 16px;
-			padding: 24px;
-		border-radius: 24px;
-		border: 1px solid rgba(255, 255, 255, 0.08);
-		background: rgba(255, 255, 255, 0.02);
+	.note {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
 	}
 	.note h2 {
 		font-size: 1.6rem;
