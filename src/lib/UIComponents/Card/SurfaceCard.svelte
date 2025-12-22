@@ -1,25 +1,29 @@
 <script>
-	export let tag = 'article';
-	export let interactive = false;
-	export let padding = '24px';
-	export let gap = '12px';
-	export let className = '';
-</script>
+		export let tag;
+		export let interactive;
+		export let className;
+	</script>
 
-<svelte:element
-	this={tag}
-	class={`surface-card ${interactive ? 'interactive' : ''} ${className}`}
-	style={`--surface-padding: ${padding}; --surface-gap: ${gap};`}
->
-	<slot />
-</svelte:element>
+{#if tag === 'section'}
+	<section class={`surface-card${interactive ? ' interactive' : ''}${className ? ` ${className}` : ''}`}>
+		<slot />
+	</section>
+{:else if tag === 'div'}
+	<div class={`surface-card${interactive ? ' interactive' : ''}${className ? ` ${className}` : ''}`}>
+		<slot />
+	</div>
+{:else}
+	<article class={`surface-card${interactive ? ' interactive' : ''}${className ? ` ${className}` : ''}`}>
+		<slot />
+	</article>
+{/if}
 
 <style>
 	.surface-card {
 		display: flex;
 		flex-direction: column;
-		gap: var(--surface-gap, 12px);
-		padding: var(--surface-padding, 24px);
+		gap: 12px;
+		padding: 24px;
 		border-radius: 20px;
 		border: 1px solid rgba(255, 255, 255, 0.08);
 		background: rgba(255, 255, 255, 0.02);

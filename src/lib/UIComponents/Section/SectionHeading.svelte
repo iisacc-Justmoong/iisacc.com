@@ -1,11 +1,11 @@
 <script>
-	export let eyebrow = '';
-	export let title = '';
-	export let description = '';
-	export let layout = 'stacked'; // 'stacked' | 'split'
-</script>
+		export let eyebrow;
+		export let title;
+		export let description;
+		export let layout;
+	</script>
 
-<div class={`section-heading ${layout}`}>
+<div class={`section-heading ${layout ?? 'stacked'}`}>
 	<div class="section-heading__title">
 		{#if eyebrow}
 			<p class="eyebrow">{eyebrow}</p>
@@ -18,8 +18,6 @@
 	{#if description}
 		<p class="section-heading__description">{description}</p>
 	{/if}
-
-	<slot />
 </div>
 
 <style>

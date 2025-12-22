@@ -45,7 +45,7 @@
 		flex-direction: column;
 		gap: 24px;
 	}
-	.story-hero {
+	:global(.story-hero) {
 		margin-bottom: 32px;
 	}
 	.story-link {

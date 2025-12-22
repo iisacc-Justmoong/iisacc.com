@@ -1,12 +1,8 @@
 :root {
 	--color-accent-blue: #007aff;
-	--color-accent-red: #db1111;
-	--color-accent-green: #3a9d3e;
-	--color-accent-yellow: #ffd30a;
 	--color-accent-orange: #ff9f21;
 	--color-accent-purple: #b90bff;
 	--color-accent-cyan: #13ffd6;
-	--color-accent-indigo: #ffd30a;
 
 	--color-background-primary: #0a0a0a;
 	--color-background-secondary: #1f1f1f;
@@ -15,16 +11,10 @@
 	--color-text-secondary: #86868b;
 	--color-text-disabled: #52535a;
 
-	/* contents font sizes */
-	--text-title: 36px;
-	--text-subtitle: 30px;
 	--text-header: 24px;
 	--text-subheader: 20px;
 	--text-body: 17px;
 	--text-caption: 15px;
-
-	/* ui font sizes */
-	--text-ui: 20px;
 }
 
 * {
@@ -53,8 +43,6 @@ p {
 	margin: 0;
 }
 a {
-	text-decoration: none;
-	text-transform: none;
 	display: block;
 	text-decoration: none;
 	color: inherit;

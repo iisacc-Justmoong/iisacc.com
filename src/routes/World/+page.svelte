@@ -22,7 +22,7 @@
 <Footer />
 
 <style>
-	.world-hero {
+	:global(.world-hero) {
 		margin-bottom: 32px;
 	}
 </style>

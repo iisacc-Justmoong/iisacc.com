@@ -1,39 +1,43 @@
 <script>
-	export let eyebrow = '';
-	export let title = '';
-	export let description = '';
-	export let notice = '';
-	export let layout = 'stacked'; // 'stacked' | 'split'
-	export let meta = [];
-	export let titleTag = 'h1';
-	export let variant = 'panel'; // 'panel' | 'plain'
-	export let className = '';
-</script>
+		export let eyebrow;
+		export let title;
+		export let description;
+		export let notice;
+		export let layout;
+		export let meta;
+		export let titleTag;
+		export let variant;
+		export let className;
 
-<section class={`hero-section ${layout} ${variant} ${className}`}>
+	</script>
+
+<section
+	class={`hero-section ${layout ?? 'stacked'} ${variant ?? 'panel'}${className ? ` ${className}` : ''}`}
+>
 	<div class="hero-section__content">
 		{#if eyebrow}
 			<p class="eyebrow">{eyebrow}</p>
 		{/if}
 		{#if title}
-			<svelte:component this={titleTag}>{title}</svelte:component>
+			{#if (titleTag ?? 'h1') === 'h2'}
+				<h2 class="hero-title">{title}</h2>
+			{:else if (titleTag ?? 'h1') === 'h3'}
+				<h3 class="hero-title">{title}</h3>
+			{:else}
+				<h1 class="hero-title">{title}</h1>
+			{/if}
 		{/if}
 		{#if description}
 			<p class="description">{description}</p>
 		{/if}
 		{#if notice}
 			<p class="notice">{notice}</p>
-		{:else if $$slots.notice}
-			<div class="notice">
-				<slot name="notice" />
-			</div>
 		{/if}
-		<slot />
 	</div>
 
-	{#if meta?.length}
-		<div class="hero-section__meta">
-			{#each meta as item}
+		{#if (meta ?? []).length}
+			<div class="hero-section__meta">
+				{#each meta ?? [] as item}
 				<div>
 					<span class="label">{item.label}</span>
 					<p>{item.value}</p>
@@ -61,8 +65,7 @@
 	.hero-section.split {
 		gap: 24px;
 	}
-	.hero-section__content h1,
-	.hero-section__content h2 {
+	.hero-title {
 		margin: 8px 0;
 		font-size: clamp(32px, 5vw, 48px);
 	}
@@ -90,7 +93,7 @@
 		background: rgba(255, 255, 255, 0.04);
 		color: var(--color-text-secondary);
 	}
-	.notice strong {
+	:global(.hero-section .notice strong) {
 		color: var(--color-text-primary);
 	}
 	.eyebrow {
