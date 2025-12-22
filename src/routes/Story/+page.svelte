@@ -26,14 +26,17 @@
 
 <section class="story-grid">
 	{#each stories as story}
-		<a class="story-link" href={`/Story/${story.slug}`}>
-			<SurfaceCard tag="article" className="story-card" interactive={true}>
-				<h2>{story.title}</h2>
-
-			<time datetime={story.date}>{formatDate(story.date)}</time>
-			<p>{story.description}</p>
-			</SurfaceCard>
-		</a>
+		<SurfaceCard
+			className="story-card"
+			interactive={true}
+			title={story.title}
+			meta={formatDate(story.date)}
+			metaTag="time"
+			metaDatetime={story.date}
+			description={story.description}
+			linkHref={`/Story/${story.slug}`}
+			linkLabel="Read story →"
+		/>
 	{/each}
 </section>
 
@@ -47,14 +50,5 @@
 	}
 	:global(.story-hero) {
 		margin-bottom: 32px;
-	}
-	.story-link {
-		color: inherit;
-		text-decoration: none;
-		display: block;
-	}
-	time {
-		color: var(--color-text-secondary);
-		font-size: var(--text-caption);
 	}
 </style>

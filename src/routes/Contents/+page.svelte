@@ -22,30 +22,30 @@
 		/>
 
 	<section class="pillar-grid">
-		<SurfaceCard tag="article" className="pillar-card">
-				<h3>Process-first Records</h3>
-			<p>
-				Sketches, failed tests, and research notes are layered in order so the next iteration can pick up
-				immediately.
-			</p>
-		</SurfaceCard>
-		<SurfaceCard tag="article" className="pillar-card">
-			<h3>Original Source Delivery</h3>
-			<p>Project files, textures, audio, generative code, and modular graphs are packed exactly as I use them.</p>
-		</SurfaceCard>
-		<SurfaceCard tag="article" className="pillar-card">
-			<h3>Usage Guidance</h3>
-			<p>Licensing, credits, and version history stay explicit so anyone can remix safely and confidently.</p>
-		</SurfaceCard>
+		<SurfaceCard
+			className="pillar-card"
+			title="Process-first Records"
+			description="Sketches, failed tests, and research notes are layered in order so the next iteration can pick up immediately."
+		/>
+		<SurfaceCard
+			className="pillar-card"
+			title="Original Source Delivery"
+			description="Project files, textures, audio, generative code, and modular graphs are packed exactly as I use them."
+		/>
+		<SurfaceCard
+			className="pillar-card"
+			title="Usage Guidance"
+			description="Licensing, credits, and version history stay explicit so anyone can remix safely and confidently."
+		/>
 	</section>
 
 	<section class="collection">
-		<SectionHeading
-			eyebrow="Artwork Archives"
-			title="Archive per project"
-			description="Each project ships as a package that includes the final piece plus experiments, tools, audio, and motion presets. Check the cards below for current status and upcoming resources."
-			layout="split"
-		/>
+	<SectionHeading
+		eyebrow="Artwork Archives"
+		title="Archive per project"
+		description="Each project ships as a package that includes the final piece plus experiments, tools, audio, and motion presets. Check the cards below for current status and upcoming resources."
+		layout="split"
+	/>
 
 		<div class="project-grid">
 			<article class="project-card" style="--accent: var(--color-accent-cyan)">

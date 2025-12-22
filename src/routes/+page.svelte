@@ -1,7 +1,6 @@
 <script>
 	import Header from '$lib/Layouts/Header.svelte';
 	import Footer from '$lib/Layouts/Footer.svelte';
-	import SurfaceCard from '$lib/UIComponents/Card/SurfaceCard.svelte';
 	import HeroLinks from '$lib/UIComponents/List/HeroLinks.svelte';
 	import LandingHighlights from '$lib/UIComponents/List/LandingHighlights.svelte';
 </script>
@@ -24,7 +23,7 @@
 
 			<LandingHighlights />
 
-		<SurfaceCard tag="section" className="note">
+		<section class="note">
 			<div>
 				<h2>Building calm tools, not platforms.</h2>
 				<p>
@@ -33,7 +32,7 @@
 				</p>
 			</div>
 			<a class="button ghost" href="mailto:andudyun0504gmail.com">Say hello</a>
-		</SurfaceCard>
+		</section>
 	</div>
 </main>
 
@@ -83,16 +82,20 @@
 		border: 1px solid rgba(255, 255, 255, 0.25);
 		color: var(--color-text);
 	}
-	:global(.note) {
+	.note {
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
+		padding: 24px;
+		border-radius: 20px;
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		background: rgba(255, 255, 255, 0.02);
 	}
-	:global(.note h2) {
+	.note h2 {
 		font-size: 1.6rem;
 		margin-bottom: 8px;
 	}
-	:global(.note p) {
+	.note p {
 		color: rgba(255, 255, 255, 0.72);
 		margin: 0;
 	}
