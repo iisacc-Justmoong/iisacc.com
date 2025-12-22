@@ -1,7 +1,7 @@
 <script>
 	import Header from '$lib/Layouts/Header.svelte';
 	import Footer from '$lib/Layouts/Footer.svelte';
-	import HeroLinks from '$lib/UIComponents/List/HeroLinks.svelte';
+	import HeroLink from '$lib/UIComponents/Card/HeroLink.svelte';
 	import LandingHighlights from '$lib/UIComponents/List/LandingHighlights.svelte';
 </script>
 
@@ -18,10 +18,26 @@
 					iOS apps arrive quietly, without ads, and stay out of your way.
 				</p>
 			</div>
-				<HeroLinks />
-			</section>
+			<div class="hero-link-group">
+				<HeroLink
+					href="/Store/TimeScopes"
+					title="Time Scopes"
+					description="Lifespan dashboard for iPhone &amp; iPad"
+				/>
+				<HeroLink
+					href="/Store/Vincent"
+					title="Vincent"
+					description="Minimal painter for macOS"
+				/>
+				<HeroLink
+					href="/Contents"
+					title="Contents"
+					description="Research notes &amp; documentation"
+				/>
+			</div>
+		</section>
 
-			<LandingHighlights />
+		<LandingHighlights />
 
 		<section class="note">
 			<div>
@@ -68,6 +84,12 @@
 	}
 	.lede {
 		font-size: 1.1rem;
+	}
+	.hero-link-group {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		width: 100%;
 	}
 	.button {
 		display: inline-flex;
