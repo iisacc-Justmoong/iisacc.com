@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <article class="card" aria-label="Application Card">
 	<header class="top">
 		<div class="icon">
@@ -49,7 +46,7 @@
 	}
 	.title {
 		margin: 0;
-		text-align: top;
+		text-align: left;
 	}
 	.price {
 		justify-self: end;
@@ -57,7 +54,7 @@
 		text-align: right;
 		font-weight: 600;
 		align-items: center;
-		color: var(--text-primary);
+		color: var(--color-text-primary);
 		background-color: var(--color-accent-blue);
 		padding: 12px 32px;
 		border-radius: 32px;

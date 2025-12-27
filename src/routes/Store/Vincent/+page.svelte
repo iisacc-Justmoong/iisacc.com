@@ -122,12 +122,6 @@
 <Footer />
 
 <style>
-	.container {
-		width: min(1040px, 100%);
-		margin-left: auto;
-		margin-right: auto;
-		padding: 32px 20px;
-	}
 	.hero {
 		display: flex;
 		flex-direction: column;
@@ -142,16 +136,9 @@
 	.hero-copy p {
 		color: var(--color-text-secondary);
 	}
-	.eyebrow {
-		text-transform: uppercase;
-		letter-spacing: 0.2em;
-		font-size: 0.75rem;
-		color: rgba(255, 255, 255, 0.7);
-		margin-bottom: 16px;
-	}
 	.lede {
 		font-size: 1.15rem;
-		color: var(--color-text);
+		color: var(--color-text-primary);
 		margin-bottom: 16px;
 	}
 	.promises {
@@ -163,36 +150,10 @@
 		gap: 12px;
 		color: rgba(255, 255, 255, 0.75);
 	}
-	.cta-row {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 12px;
-	}
-	.primary-cta,
-	.secondary-cta {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 12px 28px;
-		border-radius: 999px;
-		font-weight: 600;
-		text-decoration: none;
-		transition: transform 150ms ease, background 150ms ease, color 150ms ease;
-	}
 	.primary-cta {
 		background: linear-gradient(120deg, #ffd89c, #ff8fb1);
 		color: #201201;
 		box-shadow: 0 18px 45px rgba(255, 143, 177, 0.35);
-	}
-	.primary-cta:hover {
-		transform: translateY(-2px);
-	}
-	.secondary-cta {
-		border: 1px solid rgba(255, 255, 255, 0.2);
-		color: var(--color-text);
-	}
-	.secondary-cta:hover {
-		border-color: rgba(255, 255, 255, 0.4);
 	}
 	.hero-panel {
 		background: rgba(255, 255, 255, 0.02);

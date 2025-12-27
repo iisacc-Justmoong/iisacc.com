@@ -47,7 +47,7 @@
 					the right level of craft.
 				</p>
 			</div>
-			<a class="button ghost" href="mailto:andudyun0504gmail.com">Say hello</a>
+				<a class="button ghost" href="mailto:andudyun0504@gmail.com">Say hello</a>
 		</section>
 	</div>
 </main>
@@ -102,7 +102,7 @@
 	}
 	.button.ghost {
 		border: 1px solid rgba(255, 255, 255, 0.25);
-		color: var(--color-text);
+		color: var(--color-text-primary);
 	}
 	.note {
 		display: flex;

@@ -1,7 +1,5 @@
 <script>
 	import { navigationLinks } from '$lib/config/site.js';
-
-	const navItems = navigationLinks;
 </script>
 
 <header class="header">
@@ -13,7 +11,7 @@
 
 	<nav aria-label="Primary navigation">
 		<ul class="nav-list">
-			{#each navItems as item}
+			{#each navigationLinks as item}
 				<li class="nav-item">
 					<a href={item.href}>
 						<span class="tag_span">{item.title}</span>
